@@ -1,0 +1,51 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Survey Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header id="header"><img src="./image/logo.png" class="image">
+<a href="https://isqip.cecieee.org">isqip.cecieee.org</a></header>
+<div class="survey">
+<form>
+<p><b>Name:</b>
+<input type="text" required></input><br></p>
+
+<p><b>E-Mail:</b>
+<input type="text" required></input><br></p>
+
+<p><b>Member ID:</b>
+<input type="text" required></input><br></p><br>
+
+<p><b>Select isqip stream:</b>
+ <select>
+  <option value="0">CS ISQIP</option>
+  <option value="1">EC ISQIP</option>
+  <option value="2">EE ISQIP</option>
+  <option value="3" selected>EI ISQIP</option>
+</select> 
+
+<p><b>How was the workshops?</b><br>
+<div class="slidecontainer">
+  <input type="range" min="1" max="5" value="50" class="slider" id="myRange" required>
+</div><br><span id="demo"></span>
+<script src="javascript.js"></script>
+  
+<p><b>How well was the instructers?</b><br>
+<div class="slidecontainer">
+  <input type="range" min="1" max="5" value="50" class="slider" id="myRange1" required>
+</div><br><span id="demo1"></span>
+
+<script src="javascript.js"></script><br>
+
+<p><b>Remarks:</b>
+<textarea class="remarks" rows="4" cols="50"></textarea></p>
+
+<input type="submit" value="submit"></input>
+
+
+<form>
+</div>
+</body>
+</html>

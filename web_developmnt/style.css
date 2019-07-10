@@ -1,0 +1,131 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background: url("./image/bg.png");
+        background-size: cover;
+        font-family: Arial;
+    }
+    
+    .image {
+        width: 200;
+        height: 50;
+        margin-top: 20;
+    }
+    
+    #header {
+        background-color: #57555577;
+        height: 80;
+    }
+    
+    .survey {
+        margin-left: 450;
+        margin-top: 50;
+        padding-left: 20px;
+        border-radius: 10px;
+        background: #57555577;
+        box-shadow: -1px 1px 6px #b9b7b7;
+        padding: 20px;
+        width: 30%;
+        height: 90%;
+        float: left;
+        align-content: center;
+    }
+    
+    .survey input {
+        background-color: rgba(128, 128, 128, 0.534);
+        float: right;
+    }
+    
+    #header a {
+        margin-top: 30;
+        color: rgb(255, 51, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20;
+        position: relative;
+        right: 10;
+        float: right;
+    }
+    
+    input[type=button],
+    input[type=submit],
+    input[type=reset] {
+        background-color: rgb(128, 128, 128);
+        border-radius: 20px;
+        border: none;
+        color: rgb(8, 8, 8);
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        position: relative;
+        top: 30;
+        cursor: pointer;
+    }
+    
+    .slidecontainer {
+        width: 30%;
+        /* Width of the outside container */
+    }
+    
+    .slider {
+        -webkit-appearance: none;
+        /* Override default CSS styles */
+        appearance: none;
+        width: 100%;
+        /* Full-width */
+        height: 10px;
+        /* Specified height */
+        background: #d3d3d3;
+        /* Grey background */
+        outline: none;
+        /* Remove outline */
+        opacity: 0.7;
+        /* Set transparency (for mouse-over effects on hover) */
+        -webkit-transition: .2s;
+        /* 0.2 seconds transition on hover */
+        transition: opacity .2s;
+    }
+    /* Mouse-over effects */
+    
+    .slider:hover {
+        opacity: 1;
+        /* Fully shown on mouse-over */
+    }
+    /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+    
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        /* Override default look */
+        appearance: none;
+        width: 20px;
+        /* Set a specific slider handle width */
+        height: 25px;
+        /* Slider handle height */
+        background: rgb(5, 5, 5);
+        /* black background */
+        cursor: pointer;
+        /* Cursor on hover */
+    }
+    
+    .slider::-moz-range-thumb {
+        width: 20px;
+        /* Set a specific slider handle width */
+        height: 20px;
+        /* Slider handle height */
+        background: rgb(5, 5, 5);
+        /* black background */
+        cursor: pointer;
+        /* Cursor on hover */
+    }
+    
+    #demo,
+    #demo1 {
+        float: right;
+        position: relative;
+        bottom: 20;
+        right: 250;
+    }
+    
+    .remarks {
+        background-color: #57555577;
+        box-shadow: 0.5px 0.5px #b9b7b7;
+    }
