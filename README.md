@@ -1,2 +1,1 @@
-# hackerrank
-solutions to hackerrank problems
+ISQIP 2019 assingments
